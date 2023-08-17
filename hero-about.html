@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team 5</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=panchang@700,800&f[]=satoshi@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Panchang", sans-serif;
+        font-family: "Satoshi", sans-serif;
+      }
+      #carouselExampleCaptions {
+        height: 600px;
+        overflow: hidden;
+        width: 800px;
+        align-items: center;
+        margin-left: 25%;
+      }
+      #carouselExampleCaptions img {
+        height: 600px;
+      }
+      #carouselExampleCaptions .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+      #carouselExampleCaptions .herotext {
+        margin-bottom: 120px;
+      }
+      #container-about {
+        margin-top: 100px;
+      }
+      #introduction {
+        margin-left: 45%;
+        display: block;
+        margin-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">TRAVELO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="china.jpeg" class="d-block w-100" alt="..." />
+              <div class="overlay"></div>
+              <div class="carousel-caption d-none d-md-block">
+                <div class="herotext">
+                  <h1>TRAVELO</h1>
+                  <p>
+                    "Welcome to Travelo, where every journey is a story waiting
+                    to be lived. Our Travel Heroes are here to ignite your
+                    wanderlust and guide you through extraordinary experiences,
+                    making your global explorations truly unforgettable."
+                  </p>
+                </div>
+                <h5>CHINA</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="korea.jpg" class="d-block w-100" alt="..." />
+              <div class="overlay"></div>
+              <div class="carousel-caption d-none d-md-block">
+                <div class="herotext">
+                  <h1>TRAVELO</h1>
+                  <p>
+                    "Welcome to Travelo, where every journey is a story waiting
+                    to be lived. Our Travel Heroes are here to ignite your
+                    wanderlust and guide you through extraordinary experiences,
+                    making your global explorations truly unforgettable."
+                  </p>
+                </div>
+                <h5>KOREA</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="hong kong.jpg" class="d-block w-100" alt="..." />
+              <div class="overlay"></div>
+              <div class="carousel-caption d-none d-md-block">
+                <div class="herotext">
+                  <h1>TRAVELO</h1>
+                  <p>
+                    "Welcome to Travelo, where every journey is a story waiting
+                    to be lived. Our Travel Heroes are here to ignite your
+                    wanderlust and guide you through extraordinary experiences,
+                    making your global explorations truly unforgettable."
+                  </p>
+                </div>
+                <h5>HONG KONG</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="japan.jpg" class="d-block w-100" alt="..." />
+              <div class="overlay"></div>
+              <div class="carousel-caption d-none d-md-block">
+                <div class="herotext">
+                  <h1>TRAVELO</h1>
+                  <p>
+                    "Welcome to Travelo, where every journey is a story waiting
+                    to be lived. Our Travel Heroes are here to ignite your
+                    wanderlust and guide you through extraordinary experiences,
+                    making your global explorations truly unforgettable."
+                  </p>
+                </div>
+                <h5>JAPAN</h5>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="about">
+        <h1 id="introduction">ABOUT US</h1>
+        <div class="container text-center" id="container-about">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 18rem">
+                <img src="Brad Pitt.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h3 class="card-text">Brett De Leon</h3>
+                  <h2>Owner</h2>
+                  <p>
+                    "Meet Mr. Brett De Leon, the visionary behind Travelo. A
+                    passionate explorer with a mission to inspire wanderlust and
+                    share transformative travel experiences.Their commitment to
+                    wanderlust-driven discovery, paired with a deep appreciation
+                    for the transformative power of travel, drives Travelo's
+                    mission to inspire, inform, and connect fellow
+                    globetrotters. Embark on this exhilarating odyssey with Mr.
+                    Brett De Leon, and let their expertise and zeal guide you
+                    toward a world of endless exploration.""
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem">
+                <img src="mj.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h3 class="card-text">Eunice Pague</h3>
+                  <h2>Member</h2>
+                  <p class="card-text">
+                    "Meet Miss Eunice Pague, a cherished member of the Travelo
+                    family. With an insatiable curiosity and a heart full of
+                    wanderlust, She has embarked on journeys that span
+                    continents, immersing themselves in diverse cultures and
+                    captivating landscapes. Their stories and insights enrich
+                    our community, inspiring fellow travelers to explore beyond
+                    boundaries. Join us in celebrating the beauty of the world
+                    through their eyes and experiences."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem">
+                <img src="kiera.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h3 class="card-text">Shairah Rafer</h3>
+                  <h2>Member</h2>
+                  <p class="card-text">
+                    "Say hello to Miss Shairah Rafer, an integral part of the
+                    Travelo tapestry. Hailing from Bicol, their passion for
+                    travel has led them to discover hidden gems and forge
+                    connections around the world. As a member, she brings a
+                    unique blend of insights, stories, and perspectives that
+                    resonate with our community. With a heart that beats for
+                    exploration, they epitomize the spirit of adventure that
+                    defines Travelo.".
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
